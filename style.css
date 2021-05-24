@@ -1,0 +1,52 @@
+body {
+    background: white;
+}
+/* with a dot is definition of a class*/
+.cell {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+}
+/* with a # it's a definition of an id. Id is always unique, when class is not */
+
+#topLeft {
+    border-right: 2px solid black; 
+    border-bottom: 2px solid black;
+}
+#top {
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#topRight {
+    border-bottom: 2px solid black;
+}
+#left{
+    border-right: 2px solid black;  
+}
+#middle {
+    border-right: 1px solid black; 
+}
+#right {
+    border-left: 1px solid black;
+    
+}
+#bottom{
+    border-right: 2px solid black; 
+}
+#bottomLeft {
+    border-top: 2px solid black; 
+    border-right: 2px solid black; 
+}
+#bottom{
+    border-top: 2px solid black; 
+    border-right: 2px solid black; 
+}
+#bottomRight {
+    border-top: 2px solid black; 
+}
